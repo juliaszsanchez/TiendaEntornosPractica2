@@ -5,6 +5,7 @@ public class Funciones {
 	public static Producto[] rellenarProducto() {
 
 		Producto ListaProductos[] = new Producto[22];
+		//INSTANTÁNEA 1
 		ListaProductos[0] = new Producto("Altavoz", 89.99, false);
 		ListaProductos[1] = new Producto("Auriculares Alambricos", 53.99, false);
 		ListaProductos[2] = new Producto("Auriculares Inlambricos", 40.99, false);
