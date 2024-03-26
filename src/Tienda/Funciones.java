@@ -5,7 +5,7 @@ public class Funciones {
 	public static Producto[] rellenarProducto() {
 
 		Producto ListaProductos[] = new Producto[22];
-		//GENERO CONFLICTO
+//CONFLICTO ARREGLADO
 		ListaProductos[0] = new Producto("Altavoz", 89.99, false);
 		ListaProductos[1] = new Producto("Auriculares Alambricos", 53.99, false);
 		ListaProductos[2] = new Producto("Auriculares Inlambricos", 40.99, false);
@@ -22,6 +22,12 @@ public class Funciones {
 		ListaProductos[13] = new Producto("Portatil", 749.99, false);
 		ListaProductos[14] = new Producto("Torre", 103.90, false);
 
+		ListaProductos[2] = new Producto("Auriculares Inlambricos", 40.99, false);
+		ListaProductos[3] = new Producto("Disco Duro Externo", 65.00, false);
+		ListaProductos[4] = new Producto("Fuente de Alimentacion", 87.99, false);
+		ListaProductos[5] = new Producto("Memoria RAM", 46.98, false);
+		ListaProductos[6] = new Producto("Monitor", 119.37, false);
+		
 		ListaProductos[15] = new Producto("Altavoz JBL", 105.99, true);
 		ListaProductos[16] = new Producto("Auriculares Alambricos Gaming", 90.99, true);
 		ListaProductos[17] = new Producto("Auriculares Inlambricos Iphone", 30.99, true);
