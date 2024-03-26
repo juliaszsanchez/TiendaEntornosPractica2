@@ -5,7 +5,7 @@ public class Funciones {
 	public static Producto[] rellenarProducto() {
 
 		Producto ListaProductos[] = new Producto[22];
-		//INSTANTÁNEA 6
+		//GENERO CONFLICTO
 		ListaProductos[0] = new Producto("Altavoz", 89.99, false);
 		ListaProductos[1] = new Producto("Auriculares Alambricos", 53.99, false);
 		ListaProductos[2] = new Producto("Auriculares Inlambricos", 40.99, false);
@@ -17,6 +17,19 @@ public class Funciones {
 		ListaProductos[8] = new Producto("Procesador", 204.99, false);
 		ListaProductos[9] = new Producto("Raton", 21.99, false);
 		ListaProductos[10] = new Producto("Refrigerador", 66.40, false);
+		ListaProductos[11] = new Producto("Tarjeta Grafica", 310.29, false);
+		ListaProductos[12] = new Producto("Teclado", 39.95, false);
+		ListaProductos[13] = new Producto("Portatil", 749.99, false);
+		ListaProductos[14] = new Producto("Torre", 103.90, false);
+
+		ListaProductos[15] = new Producto("Altavoz JBL", 105.99, true);
+		ListaProductos[16] = new Producto("Auriculares Alambricos Gaming", 90.99, true);
+		ListaProductos[17] = new Producto("Auriculares Inlambricos Iphone", 30.99, true);
+		ListaProductos[18] = new Producto("Monitor SAMSUNG", 159.90, true);
+		ListaProductos[19] = new Producto("Raton Gaming", 38.99, true);
+		ListaProductos[20] = new Producto("Teclado con iluminacion", 62.99, true);
+		ListaProductos[21] = new Producto("Portatil Apple", 1049.99, true);
+
 		ListaProductos[11] = new Producto("Tarjeta Grafica", 310.29, false);
 		ListaProductos[12] = new Producto("Teclado", 39.95, false);
 		ListaProductos[13] = new Producto("Portatil", 749.99, false);
