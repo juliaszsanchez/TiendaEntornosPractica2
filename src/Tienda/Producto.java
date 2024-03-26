@@ -1,7 +1,7 @@
 package Tienda;
 
 public class Producto {
-
+//APARTADO SIN CONFLICTO
 	public String productos;
 	public double precio;
 	public boolean descuento;
